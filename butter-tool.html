@@ -11,11 +11,7 @@
     <div id="content">
       <header>
         <div class="logo-box">
-          <img
-            class="logo"
-            src="Images/logo.svg"
-            alt="River People Logo"
-          />
+          <img class="logo" src="Images/logo.svg" alt="River People Logo" />
         </div>
         <nav>
           <ul>
@@ -27,13 +23,65 @@
         </nav>
       </header>
       <main>
-        <div class="banner"><img src="images/butter-5.jpg" alt="Chunks of butter in a glass bowl"></div>
+        <div class="banner">
+          <img
+            src="images/butter-5.jpg"
+            alt="Chunks of butter in a glass bowl"
+          />
+        </div>
         <div class="butter-tool-grid">
-            <img src="images/butter-3.jpg" alt="Three slices of butter standing in a row">
-            <p>A wise man once said, “butter taste good.” We don’t know who it was, but
-                they were right. Help us help you find the best butter near you. Use the
-                tool below to find the closest source of butter near you.</p>
-
+          <img
+            src="images/butter-3.jpg"
+            alt="Three slices of butter standing in a row"
+          />
+          <p>
+            A wise man once said, “butter taste good.” We don’t know who it was,
+            but they were right. Help us help you find the best butter near you.
+            Use the tool below to find the closest source of butter near you.
+          </p>
+          <form action="/butter-tool.html">
+            <ul>
+              <li>
+                <label for="user_name">First Name</label>
+                <input type="text" name="name" id="user_name" autofocus />
+              </li>
+              <li>
+                <label for="user-email">Email</label
+                ><input type="email" name="email" id="user_email" />
+              </li>
+              <li>
+                <label for="zip-code">Zip Code</label>
+                <input type="number" name="zip" id="user_zip" />
+              </li>
+              <li>
+                <label for="user_brand">Favorite Brand</label>
+                <input type="text" name="brand" id="user_brand" />
+              </li>
+              <li><p>Prefered Type (Select One)</p></li>
+              <li>
+                <input
+                  type="radio"
+                  name="style"
+                  value="salted"
+                  id="user_salted"
+                  checked
+                />
+                <label for="user_salted">Salted</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="style"
+                  value="unsalted"
+                  id="user_unsalted"
+                />
+                <label for="user_unsalted">Unsalted</label>
+              </li>
+              <li class="button">
+                <button type="submit">Submit</button>
+              </li>
+            </ul>
+          </form>
         </div>
       </main>
       <footer>
