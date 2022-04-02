@@ -131,7 +131,7 @@ nav a:hover{
   line-height: 30px;
 }
 
-.home-grid a:hover{
+.home-grid a:active{
   color: #ffc857;
   background-color: #362417;
 }
