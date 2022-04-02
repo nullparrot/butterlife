@@ -17,24 +17,36 @@
         overflow: hidden;
         font-family: Arial, Helvetica, sans-serif;
       }
-      span{
+      .card span{
           margin: 8px 6px 6px 6px;
           float: right;
       }
-      button{
+      .card button{
           margin: 6px;
           background-color: white;
           border-radius: 3px;
-          border: 2px solid darkgrey;
+          border: 1.5px solid darkgrey;
+          padding: 3px 6px;
       }
-      button:hover{
-          background-color: lightgrey;
+
+      .card button:nth-of-type(1){
+        border-radius: 3px 0 0 3px;
+        margin-right: 0;
+        border-right-width: 1px;
       }
-      button:active{
-          border: 2px solid black;
+
+      .card button:nth-of-type(2){
+        border-radius: 0 3px 3px 0;
+        margin-left: 0px;
+        border-left-width: 1px;
       }
-      p{
-          padding: 6px;
+
+      .card button:active{
+          border-color: black;
+      }
+      .card p{
+          margin: 0 auto;
+          padding: 15px;
       }
     </style>
   </head>
@@ -45,13 +57,11 @@
         alt="Random image from picsum.photos"
       />
       <p>
-        A component is just a part of a web page that is commonly used more than
-        once.
+        This is a wider card with supported text below as a natural lead-in to additional content. This content is a little bit longer.
       </p>
       <footer>
-        <button class="viewButton">View</button>
-        <button class="editButton">Edit</button>
-        <span>42 m</span>
+        <button class="viewButton">View</button><button class="editButton">Edit</button>
+        <span>9 mins</span>
       </footer>
     </article>
   </body>
