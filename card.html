@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Practice</title>
+    <style>
+      img {
+        max-width: 100%;
+      }
+      .card {
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 5px;
+        background-color: white;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      span{
+          margin: 8px 6px 6px 6px;
+          float: right;
+      }
+      button{
+          margin: 6px;
+          background-color: white;
+          border-radius: 3px;
+      }
+      p{
+          padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <img
+        src="https://picsum.photos/320/240"
+        alt="Random image from picsum.photos"
+      />
+      <p>
+        A component is just a part of a web page that is commonly used more than
+        once.
+      </p>
+      <footer>
+        <button class="viewButton">View</button>
+        <button class="editButton">Edit</button>
+        <span>42 m</span>
+      </footer>
+    </article>
+  </body>
+</html>
