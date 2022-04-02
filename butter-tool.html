@@ -30,6 +30,7 @@
           />
         </div>
         <div class="butter-tool-grid">
+          <div class="butter-tool-deco-box">
           <img
             src="images/butter-3.jpg"
             alt="Three slices of butter standing in a row"
@@ -38,25 +39,27 @@
             A wise man once said, “butter taste good.” We don’t know who it was,
             but they were right. Help us help you find the best butter near you.
             Use the tool below to find the closest source of butter near you.
-          </p>
-          <form action="/butter-tool.html">
-            <ul>
-              <li>
+          </p></div>
+          <form class="butter-tool-form" action="/butter-tool.html">
+            <ul class="butter-tool-form-grid">
+              <li class="butter-tool-form-0"><h2>Butter Finder</h2></li>
+              <li class="butter-tool-form-1">
                 <label for="user_name">First Name</label>
                 <input type="text" name="name" id="user_name"/>
               </li>
-              <li>
-                <label for="user_email">Email</label
-                ><input type="email" name="email" id="user_email" />
+              <li class="butter-tool-form-2">
+                <label for="user_email">Email</label>
+                <input type="email" name="email" id="user_email" />
               </li>
-              <li>
+              <li class="butter-tool-form-3">
                 <label for="user_zip">Zip Code</label>
                 <input type="number" name="zip" id="user_zip" />
               </li>
-              <li>
+              <li class="butter-tool-form-4">
                 <label for="user_brand">Favorite Brand</label>
                 <input type="text" name="brand" id="user_brand" />
               </li>
+              <div class="butter-tool-form-5">
               <li><p>Prefered Type (Select One)</p></li>
               <li>
                 <input
@@ -77,8 +80,9 @@
                 />
                 <label for="user_unsalted">Unsalted</label>
               </li>
+            </div>
               <li class="button">
-                <button type="submit">Submit</button>
+                <button type="button">Find Butter</button>
               </li>
             </ul>
           </form>
