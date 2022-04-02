@@ -33,11 +33,12 @@ img {
   max-height: 40px;
   float: left;
   background-color: #ffc857;
-  padding: 5.01px;
+  padding: 5.01px 15px;
 }
 nav a {
   color: #362417;
   text-decoration: none;
+  padding: 11px;
   display: block;
 }
 
@@ -56,6 +57,7 @@ nav ul {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   background-color: #ffc857;
+  padding: 0;
 }
 
 nav a:hover {
