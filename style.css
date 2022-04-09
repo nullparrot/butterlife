@@ -1,12 +1,12 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@450&family=Literata:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@450&family=Literata:wght@700&display=swap");
 
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Literata', serif;
+  font-family: "Literata", serif;
 }
 
 #content {
@@ -88,19 +88,18 @@ nav a:hover {
   grid-row: 2;
 }
 
-.sitePlan{
+.sitePlan {
   margin-bottom: auto;
   margin-top: 0;
   grid-column: 1/4;
   grid-row: 3;
 }
 
-.social{
+.social {
   grid-column: 3;
   grid-row: 1;
   margin-left: auto;
 }
-
 
 .socialIMG {
   height: 50px;
@@ -277,13 +276,13 @@ input {
   margin: 0 auto;
 }
 
-.butter-tool-form-grid .button button{
+.butter-tool-form-grid .button button {
   padding: 3px 10px;
   border: 2px solid #888;
-  border-radius: 3px ;
+  border-radius: 3px;
 }
 
-.butter-tool-form-grid .button button:active{
+.butter-tool-form-grid .button button:active {
   border-color: black;
 }
 
@@ -294,22 +293,22 @@ input {
 
 /*FAQ*/
 
-.faq-content{
+.faq-content {
   padding: 1em;
   padding-top: 0;
 }
 
-.faq-head{
+.faq-head {
   /*border-bottom: 10px solid #9ad5ba;*/
   max-width: 65%;
   min-width: fit-content;
 }
 
-.faq-question{
-  margin: 1em 1em .5em 1em;
+.faq-question {
+  margin: 1em 1em 0.5em 1em;
   border-bottom: 3px solid #362417;
 }
 
-.faq-answer{
-  margin: 0 3em 2em 3em ;
+.faq-answer {
+  margin: 0 3em 2em 3em;
 }
