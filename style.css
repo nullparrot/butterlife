@@ -28,35 +28,30 @@ img {
 }
 
 /*Navigation*/
-.logo {
-  max-height: 40px;
+header{
+  background-color: #ffc857;
+  display: inline;
+}
+
+header a, img.logo{
+  height: 50px;
   float: left;
   background-color: #ffc857;
-  padding: 5.01px 15px;
-}
-nav a {
-  color: #362417;
-  text-decoration: none;
-  padding: 11px;
-  display: block;
 }
 
-nav li {
-  margin: auto;
-  width: 100%;
-  text-align: center;
-}
-
-nav ul {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(6em, 1fr));
-  margin: 0;
-  height: 50px;
-  list-style: none;
-  font-family: "Open Sans", sans-serif;
+nav {
+  display: flex;
   font-size: 1.2em;
+  text-align: center;
+  align-items: center;
   background-color: #ffc857;
-  padding: 0;
+}
+
+nav a {
+  flex: 1 1 auto;
+  text-decoration: none;
+  color: #362417;
+  line-height: 50px;
 }
 
 nav a:hover {
@@ -311,4 +306,27 @@ input {
 
 .faq-answer {
   margin: 0 3em 2em 3em;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  header a, img.logo{
+    margin: 0 auto;
+  }
+
+  nav{
+      flex-direction: column;
+      width: 100%;
+  }
+
+  nav a{
+    flex: 1 1 auto;
+  }
 }
